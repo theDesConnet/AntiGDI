@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiGDI", "AntiGDI\AntiGDI.csproj", "{3C71834E-F517-49B9-874B-07F313129BA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AntiGDI_Injector", "AntiGDI_Injector\AntiGDI_Injector.csproj", "{593E8442-2A8C-4224-8E9F-14689AE7CF39}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3C71834E-F517-49B9-874B-07F313129BA6} = {3C71834E-F517-49B9-874B-07F313129BA6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C71834E-F517-49B9-874B-07F313129BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C71834E-F517-49B9-874B-07F313129BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C71834E-F517-49B9-874B-07F313129BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C71834E-F517-49B9-874B-07F313129BA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593E8442-2A8C-4224-8E9F-14689AE7CF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593E8442-2A8C-4224-8E9F-14689AE7CF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593E8442-2A8C-4224-8E9F-14689AE7CF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593E8442-2A8C-4224-8E9F-14689AE7CF39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10EDD603-07C4-4930-9FDD-06D2574D8A8E}
+	EndGlobalSection
+EndGlobal
