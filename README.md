@@ -1,5 +1,5 @@
 ## AntiGDI
-The project that was made for the program [SimpleUnlocker](http://simpleunlocker.ds1nc.site). AntiGDI uses hooks to block functions from gdi32.dll and some functions from user32.dll that are commonly used in GDI Trojans
+The project that was made for the program [SimpleUnlocker](http://simpleunlocker.ds1nc.ru). AntiGDI uses hooks to block functions from gdi32.dll and some functions from user32.dll that are commonly used in GDI Trojans
 
 > Disclaimer! This project is not yet completed, but it can already work
 
